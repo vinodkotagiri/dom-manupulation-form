@@ -1,5 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
 body {
     background-color: rgba(0, 0, 0, .75) !important;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#title {
+    text-align: center;
+    margin-bottom: 0;
+    color: whitesmoke;
+}
+
+#description {
+    text-align: center;
+    margin-bottom: 16px;
+    color: lightgray;
+    font-style: italic;
 }
 
 .container-fluid {
@@ -22,11 +38,11 @@ table {
 }
 
 .table thead th {
-    border: 1px solid #fff;
+    border: 1px solid whitesmoke;
     color: #fff;
 }
 
 .table tbody td {
-    border: 1px solid #fff;
+    border: 1px solid whitesmoke;
     color: #fff;
 }
